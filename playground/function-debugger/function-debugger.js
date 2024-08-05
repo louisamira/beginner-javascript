@@ -1,13 +1,11 @@
-/* eslint-disable no-template-curly-in-string */
-
 function pbjMaker(breadType, isItCrunchy, jellyFruit) {
-    let peanutButter;
-    if (isItCrunchy) {
-        peanutButter = 'crunchy';
-    } else {
-        peanutButter = 'smooth';
-    }
-console.log('Your pb&j is made on ${breadType} bread with ${peanutButter} peanut and ${jellyFruit} jelly!');
+  let peanutButter;
+  if (isItCrunchy) {
+    peanutButter = 'crunchy';
+  } else {
+    peanutButter = 'smooth';
+  }
+  console.log(`Your pb&j is made on ${breadType} bread with ${peanutButter} peanut and ${jellyFruit} jelly!`);
 }
 
 debugger;
